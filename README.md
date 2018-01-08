@@ -25,4 +25,4 @@ For the purpose of demonstration, only 1000 images were used to train. The runni
 ![alt text](https://github.com/datduonguva/Convolutional-Neural-Network/blob/master/loss_vs_epoch.png)
 
 ## Future implementation
-For the future, I will find parts that can be computed paralleltically to improve the running time.
+For the future, I will find parts that can be computed in parallel to improve the running time.
