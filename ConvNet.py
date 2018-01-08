@@ -311,7 +311,7 @@ class ConvolutionalNeuralNetwork():
 				bias1_delta = self.momentum*bias1_delta + derivative_1[1]/self.batch_size + self.weight_decay*self.model['bias1']
 
 				#change in hidden_bias
-				hidden_bias_delta = self.momentum*hidden_bias_delta +np.sum(temp, axis = 0)/self.batch_size ++ self.weight_decay*self.model['hidden_bias']
+				hidden_bias_delta = self.momentum*hidden_bias_delta +np.sum(temp, axis = 0)/self.batch_size + self.weight_decay*self.model['hidden_bias']
 
 
 				#update hidd_to_output weights
